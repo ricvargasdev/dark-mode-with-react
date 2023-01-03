@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  /* */
+  max-width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.dark-mode {
+  background-color: #3f3f3f !important;
+  color: white;
+}
+
+.candidate {
+  padding: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.time-remaining {
+  padding: 1rem;  
+  margin-right: auto !important;  
+}
+
+.theme-toggle {
+  padding: 1rem;
+  border: none;
+  border-left: 1px solid black;
+}
+
+.theme-toggle.dark-mode {
+  background-color: #515151 !important;
+}
